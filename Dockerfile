@@ -1,4 +1,4 @@
-FROM ubuntu:18.10
+FROM openjdk:7
 COPY . /
 WORKDIR /
 RUN ./mvnw package
